@@ -1,13 +1,18 @@
 {
-    "python.autoComplete.addBrackets": true,
-    "python.autoComplete.extraPaths": [
-        "{$workspaceFolder}/.venv/Lib/site-packages",
-    ],
-    "python.formatting.provider": "autopep8",
-    "python.jediEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.pylintEnabled": false,
-    "python.terminal.activateEnvInCurrentTerminal": true,
-    "python.venvPath": "{$workspaceFolder}/.venv",
+  "editor.tabSize": 4,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.extraPaths": [
+    "{$workspaceFolder}/.venv/Lib/site-packages",
+    "{$workspaceFolder}/src"
+  ],
+  "python.autoComplete.extraPaths": [
+    "{$workspaceFolder}/.venv/Lib/site-packages",
+    "{$workspaceFolder}/src"
+  ],
+  "python.formatting.provider": "black",
+  "python.languageServer": "Pylance",
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.terminal.activateEnvInCurrentTerminal": true
 }
