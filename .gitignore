@@ -5,3 +5,7 @@
 /**/__pycache__
 /**/.ropeproject
 !.gitkeep
+
+/build
+/dist
+/*.spec
