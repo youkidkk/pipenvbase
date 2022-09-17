@@ -1,4 +1,4 @@
-# python-base
+# pybase
 
 Python project base.
 
