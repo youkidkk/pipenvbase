@@ -1,6 +1,6 @@
-# pybase
+# pipenvbase
 
-Python project base.
+Pipenv project base.
 
 ## Install
 
