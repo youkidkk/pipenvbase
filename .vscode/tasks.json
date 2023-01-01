@@ -9,7 +9,7 @@
       "args": [
         "run",
         "pyinstaller",
-        "${workspaceFolderBasename}/main.py",
+        "${workspaceFolderBasename}/__main__.py",
         "--onefile",
         "--name",
         "${workspaceFolderBasename}",
