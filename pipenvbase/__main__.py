@@ -1,6 +1,3 @@
-def hello(name: str):
-    print(f"Hello {name}!")
+from pipenvbase.sub import sub
 
-
-if __name__ == "__main__":
-    hello("world")
+print(sub.message("World"))
